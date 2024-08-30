@@ -19,16 +19,18 @@ The [configuration.py](https://github.com/ashuu944/FSPHD/blob/main/configuration
 
 
 ### 3. Creating Environment
-
-Download the environment file [ml_fs.yml](https://github.com/ashuu944/FSPHD/blob/main/ml_fs.yml)
-
+- Download the environment file [ml_fs.yml](https://github.com/ashuu944/FSPHD/blob/main/ml_fs.yml)
 - Open a terminal (Anaconda Prompt or any other terminal)
 - Create the environment using the YAML file ([ml_fs.yml](https://github.com/ashuu944/FSPHD/blob/main/ml_fs.yml)) :
-    ```sh
+```sh
     conda env create --file ml_fs.yml
     
-    ```
+```
 - Activate your environment and everything will be ready for you to run the application
+ ```sh
+    conda activate ml_fs
+    
+```
 
 ### 4. How to run the Application
 
