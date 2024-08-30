@@ -1,16 +1,16 @@
-# Food security indicators predictions using heterogenous data
+# Food Security Predictions based on Heterogenous Data
 
 
 # 1. Dataset
 
 How to download the dataset
 
-- For **MAC/Linux** users, Open the terminal and navigate to your code directory, e.g. (cd food_security_HD). Run the below script to download the data:
+- For **MAC/Linux** users, Open the terminal and navigate to your code directory, e.g. (cd FSPHD). Run the below script to download the data:
 
 ```sh
 ./data.sh
 ```
-- For **Windows** users, Download the data using [Link](https://www.googleapis.com/drive/v3/files/1VJFM0wuljsc2Dhdxus8h0IdcE9-0iJJu?alt=media&key=AIzaSyBo55XtefB47P_CPLKosGvnpEi3pQs5lCk). Unzip the data and paste it in your code (**food_security_HD**) folder.
+- For **Windows** users, Download the data using [Link](https://www.googleapis.com/drive/v3/files/1VJFM0wuljsc2Dhdxus8h0IdcE9-0iJJu?alt=media&key=AIzaSyBo55XtefB47P_CPLKosGvnpEi3pQs5lCk). Unzip the data and paste it in your code (**FSPHD**) folder.
 
 
 # 2. Configuration (Optional)
