@@ -20,14 +20,17 @@ The [configuration.py](https://github.com/ashuu944/FSPHD/blob/main/configuration
 
 ### 3. Creating Environment
 
-```sh
-pip install pandas
-pip install -U scikit-learn
-pip install GDAL
-pip3 install torch torchvision
-```
+Download the environment file [ml_fs.yml](https://github.com/ashuu944/FSPHD/blob/main/ml_fs.yml)
 
-### 4. How to run the application
+- Open a terminal (Anaconda Prompt or any other terminal)
+- Create the environment using the YAML file ([ml_fs.yml](https://github.com/ashuu944/FSPHD/blob/main/ml_fs.yml)) :
+    ```sh
+    conda env create --file ml_fs.yml
+    
+    ```
+- Activate your environment and everything will be ready for you to run the application
+
+### 4. How to run the Application
 
 The application offers multiple running configurations, including:
 1. **country:** Options include burkina_faso, rwanda, and tanzania.
